@@ -13,8 +13,7 @@ class MatplotlibExamplesItem(scrapy.Item):
     # name = scrapy.Field()
     pass
 
-#=====================flysky=====================
+
 class ExampleItem(scrapy.Item):
-    file_urls=scrapy.Field()
-    files=scrapy.Field()
-    
+    file_urls = scrapy.Field()
+    files = scrapy.Field()
