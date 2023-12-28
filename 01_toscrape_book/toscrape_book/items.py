@@ -13,7 +13,7 @@ class ToscrapeBookItem(scrapy.Item):
     # name = scrapy.Field()
     pass
 
-# this is completed of flysky
+
 # 定义封装书籍信息的Item类
 class BookItem(scrapy.Item):
     name = scrapy.Field()
